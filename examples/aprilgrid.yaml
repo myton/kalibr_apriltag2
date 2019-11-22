@@ -1,0 +1,8 @@
+%YAML:1.0
+---
+target_type: '36h11' #gridtype [16h5, 25h7, 25h9, 36h9, 36h11], only support 36h11
+tagCols: 6               #number of apriltags
+tagRows: 6               #number of apriltags
+tagSize: 0.036           #size of apriltag, edge to edge [m]
+tagSpacing: 0.3          #ratio of space between tags to tagSize
+

@@ -1,0 +1,246 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	GrayModel.h	/^  Eigen::Matrix4d A;$/;"	m	class:AprilTags::GrayModel
+AprilTags	Edge.h	/^namespace AprilTags {$/;"	n
+AprilTags	FloatImage.h	/^namespace AprilTags {$/;"	n
+AprilTags	GLine2D.h	/^namespace AprilTags {$/;"	n
+AprilTags	GLineSegment2D.h	/^namespace AprilTags {$/;"	n
+AprilTags	Gaussian.h	/^namespace AprilTags {$/;"	n
+AprilTags	GrayModel.h	/^namespace AprilTags {$/;"	n
+AprilTags	Gridder.h	/^namespace AprilTags {$/;"	n
+AprilTags	MathUtil.h	/^namespace AprilTags {$/;"	n
+AprilTags	Quad.h	/^namespace AprilTags {$/;"	n
+AprilTags	Segment.h	/^namespace AprilTags {$/;"	n
+AprilTags	Tag16h5.h	/^namespace AprilTags {$/;"	n
+AprilTags	Tag16h5_other.h	/^namespace AprilTags {$/;"	n
+AprilTags	Tag25h7.h	/^namespace AprilTags {$/;"	n
+AprilTags	Tag25h9.h	/^namespace AprilTags {$/;"	n
+AprilTags	Tag36h11.h	/^namespace AprilTags {$/;"	n
+AprilTags	Tag36h11_other.h	/^namespace AprilTags {$/;"	n
+AprilTags	Tag36h9.h	/^namespace AprilTags {$/;"	n
+AprilTags	TagDetection.h	/^namespace AprilTags {$/;"	n
+AprilTags	TagDetector.h	/^namespace AprilTags {$/;"	n
+AprilTags	TagFamily.h	/^namespace AprilTags {$/;"	n
+AprilTags	UnionFindSimple.h	/^namespace AprilTags {$/;"	n
+AprilTags	XYWeight.h	/^namespace AprilTags {$/;"	n
+Cell	Gridder.h	/^    Cell() : object(NULL), next(NULL) {}$/;"	f	struct:AprilTags::Gridder::Cell
+Cell	Gridder.h	/^    Cell(const Cell& c) : object(c.object), next(c.next) {}$/;"	f	struct:AprilTags::Gridder::Cell
+Cell	Gridder.h	/^  struct Cell {$/;"	s	class:AprilTags::Gridder
+Data	UnionFindSimple.h	/^  struct Data {$/;"	s	class:AprilTags::UnionFindSimple
+DualCoding	FloatImage.h	/^namespace DualCoding {$/;"	n
+EDGE_H	Edge.h	2;"	d
+Edge	Edge.h	/^  Edge() : pixelIdxA(), pixelIdxB(), cost() {}$/;"	f	class:AprilTags::Edge
+Edge	Edge.h	/^class Edge {$/;"	c	namespace:AprilTags
+FLOATIMAGE_H	FloatImage.h	2;"	d
+FloatImage	FloatImage.h	/^class FloatImage {$/;"	c	namespace:AprilTags
+GAUSSIAN_H	Gaussian.h	2;"	d
+GLINE2D_H	GLine2D.h	2;"	d
+GLINESEGMENT2D_H	GLineSegment2D.h	2;"	d
+GLine2D	GLine2D.h	/^class GLine2D {$/;"	c	namespace:AprilTags
+GLineSegment2D	GLineSegment2D.h	/^class GLineSegment2D {$/;"	c	namespace:AprilTags
+GRAYMODEL_H	GrayModel.h	4;"	d
+GRIDDER_H	Gridder.h	2;"	d
+Gaussian	Gaussian.h	/^class Gaussian {$/;"	c	namespace:AprilTags
+GrayModel	GrayModel.h	/^class GrayModel {$/;"	c	namespace:AprilTags
+Gridder	Gridder.h	/^  Gridder(float x0Arg, float y0Arg, float x1Arg, float y1Arg, float ppCell)$/;"	f	class:AprilTags::Gridder
+Gridder	Gridder.h	/^class Gridder {$/;"	c	namespace:AprilTags
+H	Homography33.h	/^  Eigen::Matrix3d H;$/;"	m	class:Homography33
+HOMOGRAPHY33_H	Homography33.h	4;"	d
+Homography33	Homography33.h	/^class Homography33 {$/;"	c
+INTERPOLATE	Homography33.h	12;"	d
+Iterator	Gridder.h	/^	  Iterator(const Iterator& it)$/;"	f	class:AprilTags::Gridder::Iterator
+Iterator	Gridder.h	/^    Iterator(Gridder* grid, float x, float y, float range)$/;"	f	class:AprilTags::Gridder::Iterator
+Iterator	Gridder.h	/^  class Iterator {$/;"	c	class:AprilTags::Gridder
+MATHUTIL_H	MathUtil.h	4;"	d
+MathUtil	MathUtil.h	/^class MathUtil {$/;"	c	namespace:AprilTags
+QUAD_H	Quad.h	2;"	d
+Quad	Quad.h	/^class Quad {$/;"	c	namespace:AprilTags
+SEGMENT_H	Segment.h	2;"	d
+STABLE_H	Homography33.h	14;"	d
+Segment	Segment.h	/^class Segment {$/;"	c	namespace:AprilTags
+TAGDETECTION_H	TagDetection.h	2;"	d
+TAGDETECTOR_H	TagDetector.h	2;"	d
+TAGFAMILY_H	TagFamily.h	2;"	d
+TableInitializer	TagFamily.h	/^    TableInitializer() {$/;"	f	class:AprilTags::TagFamily::TableInitializer
+TableInitializer	TagFamily.h	/^  static class TableInitializer {$/;"	c	class:AprilTags::TagFamily
+TagCodes	TagFamily.h	/^ TagCodes(int bits, int minHammingDistance,$/;"	f	class:AprilTags::TagCodes
+TagCodes	TagFamily.h	/^class TagCodes {$/;"	c	namespace:AprilTags
+TagDetection	TagDetection.h	/^struct TagDetection {$/;"	s	namespace:AprilTags
+TagDetector	TagDetector.h	/^	TagDetector(const TagCodes& tagCodes, const size_t blackBorder=2) : thisTagFamily(tagCodes, blackBorder) {}$/;"	f	class:AprilTags::TagDetector
+TagDetector	TagDetector.h	/^class TagDetector {$/;"	c	namespace:AprilTags
+TagDetectorConstPtr	TagDetector.h	/^typedef std::shared_ptr<const TagDetector> TagDetectorConstPtr;$/;"	t	namespace:AprilTags
+TagDetectorPtr	TagDetector.h	/^typedef std::shared_ptr<TagDetector> TagDetectorPtr;$/;"	t	namespace:AprilTags
+TagFamily	TagFamily.h	/^class TagFamily {$/;"	c	namespace:AprilTags
+UNIONFINDSIMPLE_H	UnionFindSimple.h	2;"	d
+UnionFindSimple	UnionFindSimple.h	/^  explicit UnionFindSimple(int maxId) : data(maxId) {$/;"	f	class:AprilTags::UnionFindSimple
+UnionFindSimple	UnionFindSimple.h	/^class UnionFindSimple {$/;"	c	namespace:AprilTags
+WEIGHT_SCALE	Edge.h	/^  static int const WEIGHT_SCALE; \/\/ was 10000$/;"	m	class:AprilTags::Edge
+XYWeight	XYWeight.h	/^  XYWeight(float xval, float yval, float weightval) :$/;"	f	struct:AprilTags::XYWeight
+XYWeight	XYWeight.h	/^struct XYWeight {$/;"	s	namespace:AprilTags
+XYWeight_H_	XYWeight.h	2;"	d
+add	Gridder.h	/^  void add(float x, float y, T* object) {$/;"	f	class:AprilTags::Gridder
+b	GrayModel.h	/^  Eigen::Vector4d b;$/;"	m	class:AprilTags::GrayModel
+bits	TagFamily.h	/^  int bits;$/;"	m	class:AprilTags::TagCodes
+bits	TagFamily.h	/^  int bits;$/;"	m	class:AprilTags::TagFamily
+blackBorder	TagFamily.h	/^  int blackBorder;$/;"	m	class:AprilTags::TagFamily
+c	Gridder.h	/^    Cell *c;$/;"	m	class:AprilTags::Gridder::Iterator
+cells	Gridder.h	/^  std::vector< std::vector<Cell*> > cells;$/;"	m	class:AprilTags::Gridder
+children	Segment.h	/^  std::vector<Segment*> children;$/;"	m	class:AprilTags::Segment
+code	TagDetection.h	/^  long long code;$/;"	m	struct:AprilTags::TagDetection
+codes	TagFamily.h	/^  std::vector<unsigned long long> codes;$/;"	m	class:AprilTags::TagCodes
+codes	TagFamily.h	/^  std::vector<unsigned long long> codes;$/;"	m	class:AprilTags::TagFamily
+copyToSketch	FloatImage.h	/^  void copyToSketch(DualCoding::Sketch<T>& sketch) {$/;"	f	class:AprilTags::FloatImage
+cost	Edge.h	/^  int cost;$/;"	m	class:AprilTags::Edge
+cxy	Homography33.h	/^  std::pair<float,float> cxy;$/;"	m	class:Homography33
+cxy	TagDetection.h	/^  std::pair<float,float> cxy;$/;"	m	struct:AprilTags::TagDetection
+data	UnionFindSimple.h	/^  std::vector<Data> data;$/;"	m	class:AprilTags::UnionFindSimple
+didNormalizeP	GLine2D.h	/^  bool didNormalizeP;$/;"	m	class:AprilTags::GLine2D
+didNormalizeSlope	GLine2D.h	/^  bool didNormalizeSlope;$/;"	m	class:AprilTags::GLine2D
+dimension	TagFamily.h	/^  int dimension;$/;"	m	class:AprilTags::TagFamily
+dirty	GrayModel.h	/^  bool dirty;  \/\/!< True if we've added an observation and need to recompute v$/;"	m	class:AprilTags::GrayModel
+distance2D	MathUtil.h	/^	static inline float distance2D(const std::pair<float,float> &p0, const std::pair<float,float> &p1) {$/;"	f	class:AprilTags::MathUtil
+dstPts	Homography33.h	/^  std::vector< std::pair<float,float> > srcPts, dstPts;$/;"	m	class:Homography33
+dx	GLine2D.h	/^  float dx, dy;$/;"	m	class:AprilTags::GLine2D
+dy	GLine2D.h	/^  float dx, dy;$/;"	m	class:AprilTags::GLine2D
+errorRecoveryBits	TagFamily.h	/^  int errorRecoveryBits;$/;"	m	class:AprilTags::TagFamily
+fA	Homography33.h	/^  Eigen::Matrix<double,9,9> fA;$/;"	m	class:Homography33
+fast_atan2	MathUtil.h	/^  static inline double fast_atan2(double y, double x) {$/;"	f	class:AprilTags::MathUtil
+find	Gridder.h	/^  iterator find(float x, float y, float range) { return Iterator(this,x,y,range); }$/;"	f	class:AprilTags::Gridder
+findNext	Gridder.h	/^    void findNext() {$/;"	f	class:AprilTags::Gridder::Iterator
+get	FloatImage.h	/^  float get(int x, int y) const { return pixels[y*width + x]; }$/;"	f	class:AprilTags::FloatImage
+getCXY	Homography33.h	/^  const std::pair<float,float> getCXY() const { return cxy; }$/;"	f	class:Homography33
+getDx	GLine2D.h	/^  inline float getDx() const { return dx; }$/;"	f	class:AprilTags::GLine2D
+getDy	GLine2D.h	/^  inline float getDy() const { return dy; }$/;"	f	class:AprilTags::GLine2D
+getFirst	GLine2D.h	/^  inline float getFirst() const { return p.first; }$/;"	f	class:AprilTags::GLine2D
+getFloatImagePixels	FloatImage.h	/^  const std::vector<float>& getFloatImagePixels() const { return pixels; }$/;"	f	class:AprilTags::FloatImage
+getHeight	FloatImage.h	/^  int getHeight() const { return height; }$/;"	f	class:AprilTags::FloatImage
+getId	Segment.h	/^  int getId() const { return segmentId; }$/;"	f	class:AprilTags::Segment
+getLength	Segment.h	/^  float getLength() const { return length; }$/;"	f	class:AprilTags::Segment
+getNumFloatImagePixels	FloatImage.h	/^  int getNumFloatImagePixels() const { return width*height; }$/;"	f	class:AprilTags::FloatImage
+getNumObservations	GrayModel.h	/^  inline int getNumObservations() { return nobs; }$/;"	f	class:AprilTags::GrayModel
+getP0	GLineSegment2D.h	/^  std::pair<float,float> getP0() const { return p0; }$/;"	f	class:AprilTags::GLineSegment2D
+getP1	GLineSegment2D.h	/^  std::pair<float,float> getP1() const { return p1; }$/;"	f	class:AprilTags::GLineSegment2D
+getSecond	GLine2D.h	/^  inline float getSecond() const { return p.second; }$/;"	f	class:AprilTags::GLine2D
+getSetSize	UnionFindSimple.h	/^  int getSetSize(int thisId) { return data[getRepresentative(thisId)].size; }$/;"	f	class:AprilTags::UnionFindSimple
+getTheta	Segment.h	/^  float getTheta() const { return theta; }$/;"	f	class:AprilTags::Segment
+getWidth	FloatImage.h	/^  int getWidth() const { return width; }$/;"	f	class:AprilTags::FloatImage
+getX0	Segment.h	/^  float getX0() const { return x0; }$/;"	f	class:AprilTags::Segment
+getX1	Segment.h	/^  float getX1() const { return x1; }$/;"	f	class:AprilTags::Segment
+getY0	Segment.h	/^  float getY0() const { return y0; }$/;"	f	class:AprilTags::Segment
+getY1	Segment.h	/^  float getY1() const { return y1; }$/;"	f	class:AprilTags::Segment
+good	TagDetection.h	/^  bool good;$/;"	m	struct:AprilTags::TagDetection
+gridderInit	Gridder.h	/^  void gridderInit(float x0Arg, float y0Arg, float x1Arg, float y1Arg, float ppCell) {$/;"	f	class:AprilTags::Gridder
+hammingDistance	TagDetection.h	/^  int hammingDistance;$/;"	m	struct:AprilTags::TagDetection
+hasNext	Gridder.h	/^    bool hasNext() {$/;"	f	class:AprilTags::Gridder::Iterator
+height	FloatImage.h	/^  int height;$/;"	m	class:AprilTags::FloatImage
+height	Gridder.h	/^  int width, height;$/;"	m	class:AprilTags::Gridder
+homography	Quad.h	/^  Homography33 homography;$/;"	m	class:AprilTags::Quad
+homography	TagDetection.h	/^  Eigen::Matrix3d homography;$/;"	m	struct:AprilTags::TagDetection
+hxy	TagDetection.h	/^  std::pair<float,float> hxy;$/;"	m	struct:AprilTags::TagDetection
+id	TagDetection.h	/^  int id;$/;"	m	struct:AprilTags::TagDetection
+id	UnionFindSimple.h	/^    int id;$/;"	m	struct:AprilTags::UnionFindSimple::Data
+idCounter	Segment.h	/^  static int idCounter;$/;"	m	class:AprilTags::Segment
+initializer	TagFamily.h	/^  } initializer;$/;"	m	class:AprilTags::TagFamily	typeref:class:AprilTags::TagFamily::TableInitializer
+iterator	Gridder.h	/^  typedef Iterator iterator;$/;"	t	class:AprilTags::Gridder
+iteratorInit	Gridder.h	/^    void iteratorInit(float x, float y, float range) {$/;"	f	class:AprilTags::Gridder::Iterator
+ix	Gridder.h	/^    int ix, iy;$/;"	m	class:AprilTags::Gridder::Iterator
+ix0	Gridder.h	/^    int ix0, ix1, iy0, iy1;$/;"	m	class:AprilTags::Gridder::Iterator
+ix1	Gridder.h	/^    int ix0, ix1, iy0, iy1;$/;"	m	class:AprilTags::Gridder::Iterator
+iy	Gridder.h	/^    int ix, iy;$/;"	m	class:AprilTags::Gridder::Iterator
+iy0	Gridder.h	/^    int ix0, ix1, iy0, iy1;$/;"	m	class:AprilTags::Gridder::Iterator
+iy1	Gridder.h	/^    int ix0, ix1, iy0, iy1;$/;"	m	class:AprilTags::Gridder::Iterator
+length	Segment.h	/^  float length; \/\/ length of line segment in pixels$/;"	m	class:AprilTags::Segment
+line	GLineSegment2D.h	/^  GLine2D line;$/;"	m	class:AprilTags::GLineSegment2D
+magThresh	Edge.h	/^  static float const magThresh; \/\/!< magnitude threshold for merging edges$/;"	m	class:AprilTags::Edge
+maxEdgeCost	Edge.h	/^  static float const maxEdgeCost;   \/\/!< 30 degrees = maximum acceptable difference in local orientations$/;"	m	class:AprilTags::Edge
+maxQuadAspectRatio	Quad.h	/^  static float const maxQuadAspectRatio; \/\/!< Early pruning of quads with insane ratios.$/;"	m	class:AprilTags::Quad
+minHammingDistance	TagFamily.h	/^  int minHammingDistance;$/;"	m	class:AprilTags::TagCodes
+minMag	Edge.h	/^  static float const minMag;   \/\/!< minimum intensity gradient for an edge to be recognized$/;"	m	class:AprilTags::Edge
+minimumEdgeLength	Quad.h	/^  static const int minimumEdgeLength = 6; \/\/!< Minimum size of a tag (in pixels) as measured along edges and diagonals$/;"	m	class:AprilTags::Quad
+minimumHammingDistance	TagFamily.h	/^  int minimumHammingDistance;$/;"	m	class:AprilTags::TagFamily
+minimumLineLength	Segment.h	/^  static float const minimumLineLength; \/\/!< In pixels. Calculated based on minimum plausible decoding size for Tag9 family.$/;"	m	class:AprilTags::Segment
+minimumSegmentSize	Segment.h	/^  static int const minimumSegmentSize = 4; \/\/!< Minimum number of pixels in a segment before we'll fit a line to it.$/;"	m	class:AprilTags::Segment
+mod2pi	MathUtil.h	/^	static inline float mod2pi(float ref, float v) { return ref + mod2pi(v-ref); }$/;"	f	class:AprilTags::MathUtil
+mod2pi	MathUtil.h	/^	static inline float mod2pi(float vin) {$/;"	f	class:AprilTags::MathUtil
+next	Gridder.h	/^    Cell *next;$/;"	m	struct:AprilTags::Gridder::Cell
+next	Gridder.h	/^    T& next() {$/;"	f	class:AprilTags::Gridder::Iterator
+nobs	GrayModel.h	/^  int nobs;$/;"	m	class:AprilTags::GrayModel
+object	Gridder.h	/^    T* object;$/;"	m	struct:AprilTags::Gridder::Cell
+obsCode	TagDetection.h	/^  long long obsCode;$/;"	m	struct:AprilTags::TagDetection
+observedPerimeter	Quad.h	/^  float observedPerimeter;$/;"	m	class:AprilTags::Quad
+observedPerimeter	TagDetection.h	/^  float observedPerimeter;$/;"	m	struct:AprilTags::TagDetection
+operator <	Edge.h	/^  inline bool operator< (const Edge &other) const { return (cost < other.cost); }$/;"	f	class:AprilTags::Edge
+operator =	Gridder.h	/^	  Iterator& operator=(const Iterator& it) {$/;"	f	class:AprilTags::Gridder::Iterator
+operator =	Gridder.h	/^    Cell& operator=(const Cell &other) {$/;"	f	struct:AprilTags::Gridder::Cell
+outer	Gridder.h	/^    Gridder* outer;$/;"	m	class:AprilTags::Gridder::Iterator
+p	GLine2D.h	/^  std::pair<float,float> p;  \/\/!< A point the line passes through; when normalized, it is the point closest to the origin (hence perpendicular to the line)$/;"	m	class:AprilTags::GLine2D
+p	TagDetection.h	/^  std::pair<float,float> p[4];$/;"	m	struct:AprilTags::TagDetection
+p0	GLineSegment2D.h	/^  std::pair<float,float> p0;$/;"	m	class:AprilTags::GLineSegment2D
+p0	Quad.h	/^  Eigen::Vector2f p0, p3, p01, p32;$/;"	m	class:AprilTags::Quad
+p01	Quad.h	/^  Eigen::Vector2f p0, p3, p01, p32;$/;"	m	class:AprilTags::Quad
+p1	GLineSegment2D.h	/^  std::pair<float,float> p1;$/;"	m	class:AprilTags::GLineSegment2D
+p3	Quad.h	/^  Eigen::Vector2f p0, p3, p01, p32;$/;"	m	class:AprilTags::Quad
+p32	Quad.h	/^  Eigen::Vector2f p0, p3, p01, p32;$/;"	m	class:AprilTags::Quad
+pixelIdxA	Edge.h	/^  int pixelIdxA;$/;"	m	class:AprilTags::Edge
+pixelIdxB	Edge.h	/^  int pixelIdxB;$/;"	m	class:AprilTags::Edge
+pixels	FloatImage.h	/^  std::vector<float> pixels;$/;"	m	class:AprilTags::FloatImage
+pixelsPerCell	Gridder.h	/^  float pixelsPerCell; \/\/pixels per cell$/;"	m	class:AprilTags::Gridder
+popCountTable	TagFamily.h	/^  static unsigned char popCountTable[popCountTableSize];$/;"	m	class:AprilTags::TagFamily
+popCountTableShift	TagFamily.h	/^  static const int  popCountTableShift = 12;$/;"	m	class:AprilTags::TagFamily
+popCountTableSize	TagFamily.h	/^  static const unsigned int popCountTableSize = 1 << popCountTableShift;$/;"	m	class:AprilTags::TagFamily
+quadPoints	Quad.h	/^  std::vector< std::pair<float,float> > quadPoints;$/;"	m	class:AprilTags::Quad
+rotation	TagDetection.h	/^  int rotation;$/;"	m	struct:AprilTags::TagDetection
+segmentId	Segment.h	/^  int segmentId;$/;"	m	class:AprilTags::Segment
+segments	Quad.h	/^  std::vector<Segment*> segments;$/;"	m	class:AprilTags::Quad
+set	FloatImage.h	/^  void set(int x, int y, float v) { pixels[y*width + x] = v; }$/;"	f	class:AprilTags::FloatImage
+setLength	Segment.h	/^  void setLength(float newValue) { length = newValue; }$/;"	f	class:AprilTags::Segment
+setTheta	Segment.h	/^  void setTheta(float newValue) { theta = newValue; }$/;"	f	class:AprilTags::Segment
+setX0	Segment.h	/^  void setX0(float newValue) { x0 = newValue; }$/;"	f	class:AprilTags::Segment
+setX1	Segment.h	/^  void setX1(float newValue) { x1 = newValue; }$/;"	f	class:AprilTags::Segment
+setY0	Segment.h	/^  void setY0(float newValue) { y0 = newValue; }$/;"	f	class:AprilTags::Segment
+setY1	Segment.h	/^  void setY1(float newValue) { y1 = newValue; }$/;"	f	class:AprilTags::Segment
+size	UnionFindSimple.h	/^    int size;$/;"	m	struct:AprilTags::UnionFindSimple::Data
+sortByIdCompare	TagDetection.h	/^  static bool sortByIdCompare (const TagDetection &a, const TagDetection &b) { return (a.id<b.id); }$/;"	f	struct:AprilTags::TagDetection
+square	MathUtil.h	/^	static inline float square(float x) { return x*x; }$/;"	f	class:AprilTags::MathUtil
+srcPts	Homography33.h	/^  std::vector< std::pair<float,float> > srcPts, dstPts;$/;"	m	class:Homography33
+t16h5	Tag16h5.h	/^const unsigned long long t16h5[] =$/;"	m	namespace:AprilTags
+t16h5_other	Tag16h5_other.h	/^const unsigned long long t16h5_other[] =$/;"	m	namespace:AprilTags
+t25h7	Tag25h7.h	/^const unsigned long long t25h7[] =$/;"	m	namespace:AprilTags
+t25h9	Tag25h9.h	/^const unsigned long long t25h9[] =$/;"	m	namespace:AprilTags
+t36h11	Tag36h11.h	/^const unsigned long long t36h11[] =$/;"	m	namespace:AprilTags
+t36h11_other	Tag36h11_other.h	/^const unsigned long long t36h11_other[] =$/;"	m	namespace:AprilTags
+t36h9	Tag36h9.h	/^const unsigned long long t36h9[] =$/;"	m	namespace:AprilTags
+tagCodes16h5	Tag16h5.h	/^static const TagCodes tagCodes16h5 = TagCodes(16, 5, t16h5, sizeof(t16h5)\/sizeof(t16h5[0]));$/;"	m	namespace:AprilTags
+tagCodes16h5_other	Tag16h5_other.h	/^static const TagCodes tagCodes16h5_other = TagCodes(16, 5, t16h5_other, sizeof(t16h5_other)\/sizeof(t16h5_other[0]));$/;"	m	namespace:AprilTags
+tagCodes25h7	Tag25h7.h	/^static const TagCodes tagCodes25h7 = TagCodes(25, 7, t25h7, sizeof(t25h7)\/sizeof(t25h7[0]));$/;"	m	namespace:AprilTags
+tagCodes25h9	Tag25h9.h	/^static const TagCodes tagCodes25h9 = TagCodes(25, 9, t25h9, sizeof(t25h9)\/sizeof(t25h9[0]));$/;"	m	namespace:AprilTags
+tagCodes36h11	Tag36h11.h	/^static const TagCodes tagCodes36h11 = TagCodes(36, 11, t36h11, sizeof(t36h11)\/sizeof(t36h11[0]));$/;"	m	namespace:AprilTags
+tagCodes36h11_other	Tag36h11_other.h	/^static const TagCodes tagCodes36h11_other = TagCodes(36, 11, t36h11_other, sizeof(t36h11_other)\/sizeof(t36h11_other[0]));$/;"	m	namespace:AprilTags
+tagCodes36h9	Tag36h9.h	/^static const TagCodes tagCodes36h9 = TagCodes(36, 9, t36h9, sizeof(t36h9)\/sizeof(t36h9[0]));$/;"	m	namespace:AprilTags
+theta	Segment.h	/^  float theta; \/\/ gradient direction (points towards white)$/;"	m	class:AprilTags::Segment
+thetaThresh	Edge.h	/^  static float const thetaThresh; \/\/!< theta threshold for merging edges$/;"	m	class:AprilTags::Edge
+thisTagFamily	TagDetector.h	/^	const TagFamily thisTagFamily;$/;"	m	class:AprilTags::TagDetector
+uchar	FloatImage.h	/^	typedef unsigned char uchar;$/;"	t	namespace:DualCoding
+v	GrayModel.h	/^  Eigen::Vector4d v;$/;"	m	class:AprilTags::GrayModel
+valid	Homography33.h	/^  bool valid;$/;"	m	class:Homography33
+warned	Gaussian.h	/^  static bool warned;$/;"	m	class:AprilTags::Gaussian
+weight	GLineSegment2D.h	/^  int weight;$/;"	m	class:AprilTags::GLineSegment2D
+weight	XYWeight.h	/^  float weight;$/;"	m	struct:AprilTags::XYWeight
+width	FloatImage.h	/^  int width;$/;"	m	class:AprilTags::FloatImage
+width	Gridder.h	/^  int width, height;$/;"	m	class:AprilTags::Gridder
+x	XYWeight.h	/^  float x;$/;"	m	struct:AprilTags::XYWeight
+x0	Gridder.h	/^  float x0,y0,x1,y1;$/;"	m	class:AprilTags::Gridder
+x0	Segment.h	/^  float x0, y0, x1, y1;$/;"	m	class:AprilTags::Segment
+x1	Gridder.h	/^  float x0,y0,x1,y1;$/;"	m	class:AprilTags::Gridder
+x1	Segment.h	/^  float x0, y0, x1, y1;$/;"	m	class:AprilTags::Segment
+y	XYWeight.h	/^  float y;$/;"	m	struct:AprilTags::XYWeight
+y0	Gridder.h	/^  float x0,y0,x1,y1;$/;"	m	class:AprilTags::Gridder
+y0	Segment.h	/^  float x0, y0, x1, y1;$/;"	m	class:AprilTags::Segment
+y1	Gridder.h	/^  float x0,y0,x1,y1;$/;"	m	class:AprilTags::Gridder
+y1	Segment.h	/^  float x0, y0, x1, y1;$/;"	m	class:AprilTags::Segment
+~Cell	Gridder.h	/^    ~Cell() {$/;"	f	struct:AprilTags::Gridder::Cell
+~Gridder	Gridder.h	/^  ~Gridder() {$/;"	f	class:AprilTags::Gridder

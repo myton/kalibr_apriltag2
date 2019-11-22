@@ -1,0 +1,5 @@
+*~
+lib/
+build/
+examples/*.swp
+*.swp
