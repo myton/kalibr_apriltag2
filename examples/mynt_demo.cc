@@ -12,7 +12,8 @@ int main(int argc, char* argv[]){
   }
   const std::string apriltag_yaml(argv[1]);
   std::cout << "apriltag_yaml: " << apriltag_yaml << std::endl;
-  DetectTargetPtr detectTargetPtr(new DetectTarget(apriltag_yaml));
+  //DetectTarget(const std::string& aprilgrid_yaml, float minBorderDistance = 4, bool showExtractionVideo = true, bool doSubpixRefinement = false, double maxSubpixDisplacement2 = 1.5);
+  DetectTargetPtr detectTargetPtr(new DetectTarget(apriltag_yaml, 4, true, false, 1.5));
   cv::VideoCapture cap;
   int camera_index = 6;
   while (!cap.open(camera_index)){
@@ -30,7 +31,22 @@ int main(int argc, char* argv[]){
     {
       cv::cvtColor(image, image, cv::COLOR_BGR2GRAY);
     }
-    detectTargetPtr->computeObservation(image);
+    cv::Mat points, observPoints; 
+    if (detectTargetPtr->computeObservation(image, points, observPoints)){
+      for (int i = 0; i < observPoints.rows; ++i){
+        std::cout << i << ": "; 
+        if (observPoints.at<uchar>(i, 0)){
+          std::cout << "{" << points.row(i) << "}, \t";
+          assert(points.row(i).at<double>(0) > 0 && points.row(i).at<double>(0) < image.cols);
+          assert(points.row(i).at<double>(1) > 0 && points.row(i).at<double>(1) < image.rows);
+        }else
+        {
+          std::cout << "\n**************************\n";
+        }
+      }
+    }
+    std::cout << "\n===================\n";
+
     int key = cv::waitKey(1);
     if (key == 27 || key == 'q' || key=='Q'){
       break;
