@@ -44,8 +44,8 @@ ${EIGEN3_INCLUDE_DIR}
 )
 
 file(GLOB SOURCE_FILES "src/apriltags/*.cc")
-add_library(${PROJECT_NAME} ${SOURCE_FILES})
+add_library(${PROJECT_NAME} SHARED ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
 
-add_executable(mynt_demo ${PROJECT_SOURCE_DIR}/examples/mynt_demo.cc)
-target_link_libraries(mynt_demo ${PROJECT_NAME})
+add_executable(demo ${PROJECT_SOURCE_DIR}/examples/mynt_demo.cc)
+target_link_libraries(demo ${PROJECT_NAME})

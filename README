@@ -1,0 +1,7 @@
+## type command
+cd kalibr_apriltag2
+mkdir build
+cd build
+cmake ..
+make 
+./demo aprilgrid.yaml #launch camera, for example pc camera
